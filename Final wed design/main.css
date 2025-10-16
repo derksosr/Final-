@@ -1,0 +1,125 @@
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+
+}
+
+
+.wrapper{
+  background-color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  border: 2px solid rgb(156, 93, 93);
+  box-shadow: 2px 2px 20px black;
+}
+
+header {
+  background-color: rgb(219, 137, 107);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(199, 90, 50);
+
+}
+
+header h1{
+  background-color: white;
+  font-size: 200%;
+  color: black;
+  text-shadow: 2px 2px 10px black;
+
+}
+
+
+nav{
+  background-color: rgb(199, 90, 50);
+  text-transform: uppercase;
+  border: 2px solid coral;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li{
+  list-style-type: none;
+  padding: 1rem;
+}
+
+nav a{
+  color:black;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover{
+  background-color: white;
+  border-radius: 2rem;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  margin-top: 20px;
+  padding: .5rem;
+}
+.left-column{
+  font-size: 130%;
+  line-height: 1.4;
+  padding: 0 1rem;
+}
+.left-column h2{
+  font-size: 100%;
+  padding: 20px;
+  color:white;
+  border:1px solid black;
+}
+.pic-right {
+  float: right;
+  box-shadow: 5px 5px 7px black;
+  border: 5px soild white;
+  margin: 0 0 1rem 1rem;
+}
+  
+.right-column {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 90%;
+  padding: .5rem;
+  border-radius: 30px;
+  box-shadow: inset 2px 2px 10px black;
+  text-wrap: balance;
+}
+
+.right-column h2{
+  font-size: .5rem;
+}
+.left-column img{
+  width: 400px;
+}
+  
+.right-column img{
+  width: 300px;
+}
+  
+
+.right-column figcaption{
+  
+  margin-top: .5rem;
+}
+
+.right-column img {
+  border:3px solid white;
+  border-radius: 15px;
+}
+ 
+  
+
+ 
+
